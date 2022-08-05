@@ -317,6 +317,7 @@ fn parse_file(path: std::path::PathBuf, get_names: bool) -> Result<AppState, Box
 }
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
+
     println!("Hello, world!");
 
     let mut args = env::args();
